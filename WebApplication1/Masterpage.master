@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Masterpage.master.cs" Inherits="WebApplication1.Masterpage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="stylesheet" href="StyleSheet1.css" type="text/css"/>
+    <title>Pirates Unite! | Homepage</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class ="banner">
+        
+        <div class="logo">
+            <a href="#">Pixel Pirates!</a>
+        </div>
+
+    <div class="navitb">
+        <ul>
+            <li><a href="Default.aspx">Home</a></li>
+            <li><a href="Products.aspx">Our Products</a></li>
+            <li><a href="Contact.aspx">Contact</a></li>
+            <li><a href="About Us.aspx">About Us</a></li>
+        </ul>
+    </div>
+   </div> 
+    <div class="slogan">
+        Welcome folks to an wide assortment of digital goods.
+
+      
+    </div>
+    <div>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+       
+
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

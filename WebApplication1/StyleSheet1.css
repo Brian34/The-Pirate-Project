@@ -1,0 +1,77 @@
+﻿body {
+        background-color:#0094ff;
+        font-family:'Arial', Times, serif;
+        
+}
+
+div.banner
+{
+    min-height:50px;
+}
+
+div.logo
+{
+   color:#ffffff;
+}
+
+div.slogan
+{
+   color:aqua;
+   
+}
+div.navitb
+{
+    
+}
+
+
+.logo {
+        float:left;
+        padding-left:18px;
+        font-size: 59px;
+        font-weight: bold;
+      } 
+
+       .logo > a {
+           color:#ffffff;
+           text-decoration: none;
+           
+       }
+
+       .slogan{
+           font-size: 14px;
+           font-weight: bold;
+           padding-top: 10px;
+           padding-left: 20px;
+       }
+
+       .navitb{
+           background-color:#0094ff;
+           
+
+       }
+
+       .navitb ul{
+           text-align:right;
+       }
+
+       .navitb ul li
+       {
+         list-style-type:none;
+         display:inline-block;
+         padding-right:50px;
+         padding-top:25px;
+       }
+
+       .navitb ul li a
+       {
+           color: powderblue;
+           text-decoration:none;
+           font-size:20px;
+           
+       }
+
+        .navitb ul li a:hover {
+           color: #ffffff;
+
+        }
