@@ -14,7 +14,7 @@
     <div class ="banner">
         
         <div class="logo">
-            <a href="#">Pixel Pirates!</a>
+            <a href="Default.aspx">Pixel Pirates!</a>
         </div>
 
     <div class="navitb">
@@ -29,14 +29,50 @@
     <div class="slogan">
         Welcome folks to an wide assortment of digital goods.
 
-      
     </div>
-    <div>
+    
+
+    <h1>Featured</h1>
+   <div class="slider">
+            <figure>
+            <div class="slide">
+                
+                <img src="images/Slider One.jpg">
+            </div>
+            <div class="slide">
+                
+                <img src="images/Slider Two.jpg">
+            </div>
+            <div class="slide">
+                   
+                <img src="images/Slider Three.jpg">
+            </div>
+             <div class="slide">
+                    
+                <img src="images/Slider Four.jpg">
+            </div>
+            <div class="slide">
+                
+                <img src="images/Slider Five.png">
+            </div>
+            </figure>
+    </div>
       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
        
 
         </asp:ContentPlaceHolder>
-    </div>
+    
+
+        
+
+         <footer>
+        Created by: Brian (Synchronize34)<br />
+        Trademark 2017.<br />
+        Inquiries Contact: <a href="mailto:Brian.8264@hotmail.com">Brian.8264@hotmail.com</a>
+        <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+   
     </form>
 </body>
 </html>
